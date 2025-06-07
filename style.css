@@ -1,0 +1,19 @@
+body {
+    margin:0;
+    padding:0;
+}
+header {
+background-color: black;
+}
+.logo {
+    width: 40px;
+  height: auto;
+  display: inline-block;
+  margin: 5px;
+}
+.menu {
+    width: 15px;
+  height: auto;
+  display: inline-block;
+}
+
