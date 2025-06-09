@@ -18,7 +18,10 @@ align-items: center;
 }
 main {
   background-color: #529CF1;
-  padding: 150px 25px 35px;
+  padding-top: 130px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 35px;
   margin: 0px;
 }
 h1 {
@@ -33,7 +36,7 @@ h2 {
   color: white;
 }
 button {
-  margin: 20px;
+  margin: 20px 0px;
   padding: 10px 150px;
   border-radius: 30px;
   border: none;
