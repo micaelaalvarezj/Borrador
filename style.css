@@ -18,7 +18,7 @@ align-items: center;
 }
 main {
   background-color: #529CF1;
-  padding: 150px 10px 35px;
+  padding: 150px 25px 35px;
   margin: 0px;
 }
 h1 {
@@ -36,7 +36,7 @@ button {
   margin: 20px;
   padding: 10px 150px;
   border-radius: 30px;
-  border-color: #26B758;
+  border: none;
   background-color: #26B758;
   font-family: helvetica;
   color: white;
