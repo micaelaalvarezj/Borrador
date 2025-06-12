@@ -29,10 +29,19 @@ h1 {
   font-size: 50px;
   color: white;
 }
-h2 {
+h3 {
   margin: 0px;
   font-family: Helvetica;
   color: white;
+}
+.title {
+  display: flex;
+  justify-content: center;
+}
+h2 {
+  margin: 0px;
+  font-family: Helvetica, sans-serif;
+  color: black;
 }
 button {
   margin: 20px 0px;
@@ -51,6 +60,43 @@ p {
 }
 .links {
   display: none;
+}
+.container-benefits {
+  background-color: white;
+  padding-top: 130px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 35px;
+}
+h4 {
+  margin: 0px;
+  font-family: Helvetica, sans-serif;
+  color: black;
+}
+.text-benefits {
+  font-family: Helvetica, sans-serif;
+  color: black  
+}
+.download, .block, .play, .forward {
+  width: 100px;
+}
+.subsubcontainer-images {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin: 25px 0px;
+  width: 100px;
+}
+.subsubcontainer-text {
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+  gap: 90px;
+}
+.subcontainer-imageandtext {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
 }
 
 @media screen and (min-width: 736px) {
